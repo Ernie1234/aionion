@@ -31,10 +31,14 @@ function NavBar() {
         )}
       >
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-          <Link className="flex order-2 md:order-1 items-center space-x-3 rtl:space-x-reverse">
-            <span className="self-center text-2xl font-semibold whitespace-nowrap text-slate-900">
+          <Link
+            to="/"
+            className="flex order-2 md:order-1 items-center space-x-3 rtl:space-x-reverse"
+          >
+            {/* <span className="self-center text-2xl font-semibold whitespace-nowrap text-slate-900">
               Ai onion
-            </span>
+            </span> */}
+            <img src="/assets/AI ONION 5.png" alt="Logo" className="h-12" />
           </Link>
           {isOpen ? (
             <IoClose
@@ -74,15 +78,18 @@ function NavBar() {
       </nav>
       {/* mobile nav */}
       {isOpen && (
-        <div className="flex w-2/5 md:hidden fixed top-24 left-5 z-20 rounded-md start-0 transition-all duration-300 bg-orange-950/70 ease-in-out">
-          <ul className="font-medium flex flex-col  gap-5 w-full rtl:space-x-reverse ">
+        <div className="flex w-3/5 md:hidden fixed top-24 left-5 z-20 rounded-md start-0 transition-all duration-300 bg-orange-950/70 ease-in-out ml-5 p-5">
+          <ul className="font-medium flex flex-col gap-5 w-full rtl:space-x-reverse">
             {pageLinks.map((link) => (
-              <li key={link.id} className="bg-red-950 w- text-left mx-auto">
+              <li
+                key={link.id}
+                className="bg-red-950 text-left px-5 py-3 rounded-md"
+              >
                 <NavLink
                   to={link.path}
                   className={({ isActive }) =>
                     " capitalize text-xl block " +
-                    (isActive ? "text-red-800" : "text-black")
+                    (isActive ? "text-gray-300" : "text-white")
                   }
                 >
                   {link.text}
