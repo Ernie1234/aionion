@@ -2,7 +2,7 @@ import { FaSquareXTwitter, FaTelegram } from "react-icons/fa6";
 
 function Footer() {
   return (
-    <footer className="i will add background color here">
+    <footer className="bg-gray-900 text-white py-8 md:py-12 lg:py-16">
       <div className="w-full md:max-w-screen-md lg:max-w-screen-lg m-auto flex flex-col justify-center items-center">
         <p>
           $Aion ecosystem is built to ensure that sustainbility of Ai-Onion is

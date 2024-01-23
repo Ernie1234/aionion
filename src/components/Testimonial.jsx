@@ -33,7 +33,7 @@ function Testimonial() {
           <div className="w-16 h-16 border-2 border-transparent absolute rounded-full -top-8 left-1/2 shadow-sm md:shadow-md lg:shadow-lg overflow-hidden transition-all hover:rounded-full hover:border-red-600">
             <img src={avatar} alt={name} />
           </div>
-          <p className="font-extralight mx-0 mt-4 mb-8">{`"${quote}"`}</p>
+          <p className="font-extralight mx-0 mt-4 mb-8 italic">{`"${quote}"`}</p>
           <h5>{name}</h5>
           <small className="mt-3">{job}</small>
         </Card>
@@ -53,6 +53,9 @@ function Testimonial() {
             />
           </button>
         </div>
+        <h5 className="pt-8 md:pt-12 lg:pt-16 font-bold text-4xl">
+          OUR COMMUNIT
+        </h5>
       </div>
     </section>
   );
