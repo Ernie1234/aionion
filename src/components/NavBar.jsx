@@ -26,8 +26,8 @@ function NavBar() {
     <>
       <nav
         className={classNames(
-          scrollPosition > 30 ? "shadow-lg bg-slate-100/90 " : "bg-transparent",
-          "sticky top-0 z-20 w-full start-0 bg-white transition-all duration-300 ease-in-out"
+          scrollPosition < 70 ? "bg-transparent " : "shadow-lg bg-red-100/70 ",
+          " sticky top-0 z-20 w-full start-0  transition-all duration-300 ease-in-out"
         )}
       >
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
@@ -65,7 +65,7 @@ function NavBar() {
                     to={link.path}
                     className={({ isActive }) =>
                       " capitalize text-xl block " +
-                      (isActive ? "text-red-800" : "text-black")
+                      (isActive ? "text-gray-400" : "text-white")
                     }
                   >
                     {link.text}

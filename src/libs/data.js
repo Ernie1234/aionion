@@ -20,3 +20,16 @@ export const pageLinks = [
     text: "White Paper",
   },
 ];
+export const coinData = [
+  {
+    id: 1,
+    url: "/assets/ethereum coin.png",
+    name: "ethereum",
+  },
+  { id: 2, url: "/assets/bitcoin coin.png", name: "bitcoin" },
+  {
+    id: 3,
+    url: "/assets/Solana.png",
+    name: "Solana",
+  },
+];
