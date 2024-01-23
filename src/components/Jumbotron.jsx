@@ -1,6 +1,6 @@
 function Jumbotron() {
   return (
-    <div className="flex ">
+    <div className="flex w-screen">
       <div className="flex-1 pl-48 flex justify-center items-center ">
         <div>
           <h1 className="text-red-950 text-4xl md:text-5xl lg:text-6xl font-bold">
@@ -27,7 +27,7 @@ function Jumbotron() {
           </div>
         </div>
       </div>
-      <div className="flex-1 relative ">
+      <div className="flex-1 relative">
         <div className="w-[54rem] h-[34rem] bg-red-950 absolute rounded-3xl -top-[30rem] -right-28 rotate-[25deg]" />
         <div className="">
           <img
