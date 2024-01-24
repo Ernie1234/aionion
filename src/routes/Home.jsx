@@ -13,8 +13,10 @@ function Home() {
       <Jumbotron />
       <Banner />
       <RoadMap />
-      <Tokemonics />
-      <Ecosystem />
+      <div className="bg-red-950 md:bg-gray-100 rounded-[5rem] md:rounded-none">
+        <Tokemonics />
+        <Ecosystem />
+      </div>
       <TestimonialSection />
     </div>
   );

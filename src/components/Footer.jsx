@@ -2,9 +2,9 @@ import { FaSquareXTwitter, FaTelegram } from "react-icons/fa6";
 
 function Footer() {
   return (
-    <footer className="bg-gray-900 text-white py-8 md:py-12 lg:py-16">
+    <footer className="bg-gray-900 text-white py-4 px-6 md:py-6 lg:py-10">
       <div className="w-full md:max-w-screen-md lg:max-w-screen-lg m-auto flex flex-col justify-center items-center">
-        <p>
+        <p className="text-center">
           $Aion ecosystem is built to ensure that sustainbility of Ai-Onion is
           maintained. Our first goal is to achieve a target of $1. The swap and
           staking platform will create a strong utility for the solana ecosystem

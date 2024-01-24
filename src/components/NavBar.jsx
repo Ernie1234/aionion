@@ -26,8 +26,8 @@ function NavBar() {
     <>
       <nav
         className={classNames(
-          scrollPosition < 70 ? "bg-transparent " : "shadow-lg bg-red-100/70 ",
-          " sticky top-0 z-20 w-full start-0  transition-all duration-300 ease-in-out"
+          scrollPosition < 70 ? "bg-transparent " : "shadow-lg bg-red-900 ",
+          "fixed top-0 z-50 w-full h-20 start-0 transition-all duration-300 ease-in-out"
         )}
       >
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">

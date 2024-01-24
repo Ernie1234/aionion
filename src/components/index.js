@@ -9,3 +9,4 @@ export { default as Testimonial } from "./Testimonial";
 export { default as RoadMap } from "./RoadMap";
 export { default as NavBar } from "./NavBar";
 export { default as Footer } from "./Footer";
+export { default as Header } from "./Header";

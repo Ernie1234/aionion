@@ -27,13 +27,13 @@ function Testimonial() {
   };
 
   return (
-    <section className="bg-gray-500 p-1 md:p-3 lg:p-6 flex justify-center items-center">
-      <div className="w-2/3 flex justify-center items-center flex-col">
+    <section className="bg-gray-300 p-0 md:p-3 lg:p-6 flex justify-center items-center">
+      <div className="w-full md:w-2/3 flex justify-center items-center flex-col">
         <Card>
           <div className="w-16 h-16 border-2 border-transparent absolute rounded-full -top-8 left-1/2 shadow-sm md:shadow-md lg:shadow-lg overflow-hidden transition-all hover:rounded-full hover:border-red-600">
             <img src={avatar} alt={name} />
           </div>
-          <p className="font-extralight mx-0 mt-4 mb-8 italic">{`"${quote}"`}</p>
+          <p className="font-extralight mx-0 mt-6 mb-8 italic">{`"${quote}"`}</p>
           <h5>{name}</h5>
           <small className="mt-3">{job}</small>
         </Card>
@@ -42,18 +42,18 @@ function Testimonial() {
             <IoIosArrowDropleftCircle
               onClick={prevTestHandler}
               size={55}
-              className="text-red-950"
+              className="text-red-900"
             />
           </button>
           <button className="bg-transparent cursor-pointer">
             <IoIosArrowDroprightCircle
               onClick={nextTestHandler}
               size={55}
-              className="text-red-950"
+              className="text-red-900"
             />
           </button>
         </div>
-        <h5 className="pt-8 md:pt-12 lg:pt-16 font-bold text-4xl">
+        <h5 className="pt-8 md:pt-12 lg:pt-16 font-bold text-4xl pb-3">
           OUR COMMUNIT
         </h5>
       </div>

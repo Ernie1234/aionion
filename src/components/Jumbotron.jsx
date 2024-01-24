@@ -1,7 +1,7 @@
 function Jumbotron() {
   return (
-    <div className="flex w-screen">
-      <div className="flex-1 pl-48 flex justify-center items-center ">
+    <div className="flex">
+      <div className="flex-1 pl-48 flex justify-center items-center pt-28">
         <div>
           <h1 className="text-red-950 text-4xl md:text-5xl lg:text-6xl font-bold">
             AI Onion
@@ -27,8 +27,8 @@ function Jumbotron() {
           </div>
         </div>
       </div>
-      <div className="flex-1 relative">
-        <div className="w-[54rem] h-[34rem] bg-red-950 absolute rounded-3xl -top-[30rem] -right-28 rotate-[25deg]" />
+      <div className="flex-1 relative overflow-hidden pt-32">
+        <div className="w-[54rem] h-[34rem] bg-red-950 absolute rounded-3xl -top-[28rem] -right-16 rotate-[20deg] z-30 bg-[url('/assets/Rectangle1.png')]" />
         <div className="">
           <img
             src="/assets/Picsart_24-01-16_10-39-56-312 1.png"

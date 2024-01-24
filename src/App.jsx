@@ -5,7 +5,7 @@ import { About, Home, NotFound } from "./routes";
 
 function App() {
   return (
-    <div className="relative bg-gray-100">
+    <div className="relative bg-gray-100 overflow-hidden">
       <NavBar />
       <Routes>
         <Route exact path="/" element={<Home />} />
