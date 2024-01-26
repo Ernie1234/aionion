@@ -26,7 +26,7 @@ function NavBar() {
     <>
       <nav
         className={classNames(
-          scrollPosition < 70 ? "bg-transparent " : "shadow-lg bg-red-900 ",
+          scrollPosition < 70 ? "bg-transparent " : "shadow-lg bg-red-950 ",
           "fixed top-0 z-50 w-full h-20 start-0 transition-all duration-300 ease-in-out"
         )}
       >

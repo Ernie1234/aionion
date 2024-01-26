@@ -32,7 +32,7 @@ function HorizontalScroll({ data }) {
               className="bg-red-950 p-0 md:p-5 rounded-full mr-1 md:mr-3"
             >
               <img
-                className=" w-14 h-14 md:w-20 md:h-w-20 object-cover inline-block p-2 cursor-pointer hover:scale-105 ease-in-out duration-300"
+                className=" w-14 h-14 md:w-20 md:h-20 object-cover inline-block p-2 cursor-pointer hover:scale-105 ease-in-out duration-300"
                 src={item.url}
                 alt="img"
               />

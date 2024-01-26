@@ -27,8 +27,9 @@ function Jumbotron() {
           </div>
         </div>
       </div>
-      <div className="hidden md:block md:flex-1  pt-32">
-        <div className="hidden md:block w-[54rem] h-[34rem] bg-red-950 absolute rounded-3xl md:-top-0 md:-right-16" />
+      <div className="hidden md:block md:flex-1 pt-32">
+        <div className="hidden md:block w-[65rem] h-[38rem] bg-red-950 absolute rounded-[6rem] md:-top-[28rem] md:-right-48 bg-[url('/assets/rectGirl.png')] bg-no-repeat bg- scale-x-[-1] rotate-[28deg]" />
+        <div className="hidden md:block w-[65rem] h-[38rem]  absolute rounded-[6rem] md:-top-[28rem] md:-right-48 rotate-[28deg] bg-gradient-to-r from-red-950/90 to-red-950/50" />
 
         <div className="">
           <img

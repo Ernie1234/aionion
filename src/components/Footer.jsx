@@ -16,10 +16,10 @@ function Footer() {
         </p>
         <div className="flex flex-col md:flex-row justify-center items-center gap-3 md:gap-8 lg:gap-12 mt-3 md:mt-5 lg:mt-8">
           <a
-            href="https://twitter.com/ai_onion"
+            href="https://twitter.com/AIONION_SOL"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex gap-3 md:gap-5 justify-center items-center"
+            className="flex gap-3 md:gap-5 justify-center items-center cursor-pointer"
           >
             <FaSquareXTwitter size={35} />
             <span> @AIONION_SOL</span>
@@ -28,7 +28,7 @@ function Footer() {
             href="https://t.me/+-djdU5vZjYQ3NTFk"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex gap-3 md:gap-5 justify-center items-center"
+            className="flex gap-3 md:gap-5 justify-center items-center cursor-pointer"
           >
             <FaTelegram size={35} />
             <span>https://t.me/+-djdU5vZjYQ3NTFk</span>
