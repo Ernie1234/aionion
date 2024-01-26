@@ -1,12 +1,12 @@
 function RoadMap() {
   return (
-    <div className="flex flex-col justify-center items-center pt-24">
+    <div className="flex flex-col justify-center items-center pt-24 w-full">
       <h2 className="font-bold text-3xl text-red-950 pb-4 md:pb-8">
         WHY AI-ONION
       </h2>
-      <div className="flex justify-center items-center w-full pl-20 bg-gray-100 md:bg-red-950 text-red-950 md:text-white">
-        <div className="w-3/5 flex flex-col justify-center items-center gap-10">
-          <p className="font-light text-sm md:text-base">
+      <div className="flex justify-center items-center w-full pl-0 md:pl-20 bg-red-950 text-white">
+        <div className="w-full md:w-3/5 flex flex-col justify-center items-center gap-10 bg-gray-100 text-red-950 md:text-gray-100 md:bg-red-950 px-8 pb-36 md:pb-0 md:px-0 relative">
+          <p className="font-semibold md:font-light text-sm md:text-base">
             Aionion is a solana project with utilities, one of which is a
             Ai-Onion swap and staking platform. Through achieving our goal of
             creating an important utility in the solana ecosystem, we empower
@@ -18,7 +18,7 @@ function RoadMap() {
             <h5 className="font-bold text-2xl text-red-950 md:text-white pb-3">
               WHY AI-ONION
             </h5>
-            <p className="font-light text-sm md:text-base">
+            <p className="font-semibold md:font-light text-sm md:text-base">
               To have a game-changing touch in the utilities, which solana
               network offers in web 3. Ai-onion aims to bridge the gap between
               the utilities and relevance of crypto to the web 3 space.
@@ -28,7 +28,7 @@ function RoadMap() {
             <h5 className="font-bold text-2xl text-red-950 md:text-white pb-3">
               ROAD MAP
             </h5>
-            <p className="font-light text-sm md:text-base">
+            <p className="font-semibold md:font-light text-sm md:text-base">
               These plans are what will guide us to meticulously to reach the
               ultimate goal(s). They are; Last quarter of 2023 – Presale,
               giveaway‛s and launch First to Secondquarter of 2024 - Aggressive
@@ -42,6 +42,11 @@ function RoadMap() {
               relevant $Aion community targeted for influencers marketing and
               promotion.
             </p>
+            <img
+              src="/assets/Rectangle 21.png"
+              alt="shapeRoadMap"
+              className="block md:hidden w-10/12 absolute bottom-10 right-0 z-0 opacity-50"
+            />
           </div>
         </div>
         <div className="w-2/5 py-10 hidden md:flex justify-center items-center">
