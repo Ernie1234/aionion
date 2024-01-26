@@ -1,12 +1,12 @@
 function Jumbotron() {
   return (
-    <div className="flex">
-      <div className="flex-1 pl-48 flex justify-center items-center pt-28">
+    <div className="flex flex-col md:flex-row relative overflow-hidden">
+      <div className="md:flex-1 w-4/5 md:w-full mx-auto md:px-0 pl-0 md:pl-28 lg:pl-48 flex-col md:flex-row flex justify-center items-center pt-28">
         <div>
-          <h1 className="text-red-950 text-4xl md:text-5xl lg:text-6xl font-bold">
+          <h1 className="text-red-950 text-center md:text-left text-4xl md:text-5xl lg:text-6xl font-bold">
             AI Onion
           </h1>
-          <h5 className="text-red-700 font-medium ">
+          <h5 className="text-yellow-700/90 text-2xl md:text-4xl text-center md:text-left font-semibold pb-48 md:pb-16 lg:pb-8">
             We are a community driven project, championed by active
             participants.
           </h5>
@@ -17,7 +17,7 @@ function Jumbotron() {
             solana ecosystem using artificial intelligence.
           </p>
 
-          <div className="flex gap-3 md:gap-6 lg:gap-10 pt-3 md:pt-5">
+          <div className="flex flex-col md:flex-row gap-3 md:gap-6 lg:gap-10 pt-3 md:pt-5">
             <button className="font-bold text-xl md:text-2xl lg:text-4xl capitalize py-3 px-8 rounded md:rounded-md lg:rounded-lg border border-red-950 text-red-950 bg-transparent hover:bg-red-950 hover:text-white hover:border-red-950 cursor-pointer">
               buy
             </button>
@@ -27,8 +27,9 @@ function Jumbotron() {
           </div>
         </div>
       </div>
-      <div className="flex-1 relative overflow-hidden pt-32">
-        <div className="w-[54rem] h-[34rem] bg-red-950 absolute rounded-3xl -top-[28rem] -right-16 rotate-[20deg] z-30 bg-[url('/assets/Rectangle1.png')]" />
+      <div className="hidden md:block md:flex-1  pt-32">
+        <div className="hidden md:block w-[54rem] h-[34rem] bg-red-950 absolute rounded-3xl md:-top-0 md:-right-16" />
+
         <div className="">
           <img
             src="/assets/Picsart_24-01-16_10-39-56-312 1.png"
@@ -36,6 +37,13 @@ function Jumbotron() {
             className="w-2/3"
           />
         </div>
+      </div>
+      <div className="-top-18 right-0 left-0 absolute">
+        <img
+          src="/assets/smRectShape.png"
+          alt="jumbotronImage"
+          className="block md:hidden bg-cover"
+        />
       </div>
     </div>
   );
