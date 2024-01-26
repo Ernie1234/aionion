@@ -7,21 +7,21 @@ function RoadMap() {
       <div className="flex justify-center items-center w-full pl-0 md:pl-20 bg-red-950 text-white">
         <div className="w-full md:w-3/5 flex flex-col justify-center items-center gap-10 bg-gray-100 text-red-950 md:text-gray-100 md:bg-red-950 px-8 pb-36 md:pb-0 md:px-0 relative">
           <p className="font-semibold md:font-light text-sm md:text-base">
-            Aionion is a solana project with utilities, one of which is a
-            Ai-Onion swap and staking platform. Through achieving our goal of
-            creating an important utility in the solana ecosystem, we empower
-            every $Aion holder to engage in the thriving web 3 ecosystem and
-            help build a better decentralized future, through the application of
-            artificial intelligence
+            Aionion is a bsc project with utilities, one of which is a Ai-Onion
+            swap and staking platform. Through achieving our goal of creating an
+            important utility in the bsc ecosystem, we empower every $Aion
+            holder to engage in the thriving web 3 ecosystem and help build a
+            better decentralized future, through the application of artificial
+            intelligence
           </p>
           <div>
             <h5 className="font-bold text-2xl text-red-950 md:text-white pb-3">
               WHY AI-ONION
             </h5>
             <p className="font-semibold md:font-light text-sm md:text-base">
-              To have a game-changing touch in the utilities, which solana
-              network offers in web 3. Ai-onion aims to bridge the gap between
-              the utilities and relevance of crypto to the web 3 space.
+              To have a game-changing touch in the utilities, which bsc network
+              offers in web 3. Ai-onion aims to bridge the gap between the
+              utilities and relevance of crypto to the web 3 space.
             </p>
           </div>
           <div>

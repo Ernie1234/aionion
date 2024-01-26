@@ -11,10 +11,10 @@ function Jumbotron() {
             participants.
           </h5>
           <p>
-            $Aion is a artificial intelligence solana blockchain project, which
+            $Aion is a artificial intelligence bsc blockchain project, which
             imbeds the use of AI in it’s utility, improving users experience. We
-            peel back the layers of crypto innovation, adding flavor to the
-            solana ecosystem using artificial intelligence.
+            peel back the layers of crypto innovation, adding flavor to the bsc
+            ecosystem using artificial intelligence.
           </p>
 
           <div className="flex flex-col md:flex-row gap-3 md:gap-6 lg:gap-10 pt-3 md:pt-5">

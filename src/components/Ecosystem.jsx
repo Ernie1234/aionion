@@ -1,25 +1,25 @@
 function Ecosystem() {
   return (
     <div className="bg-yellow-900 md:bg-gray-100 rounded-[5rem] md:rounded-none w-full mb-4 md:mb-8 lg:mb-16">
-      <h2 className="md:bg-yellow-900 text-center text-black text-xl font-bold p-3 md:p-5 mb-6 md:mb-10 lg:mb-12">
+      <h2 className="md:bg-yellow-900 text-center text-white md:text-red-950 text-xl font-bold p-3 md:p-5 mb-6 md:mb-10 lg:mb-12">
         AI-ONION ECOSYSTEM
       </h2>
       <div className="w-full md:w-11/12 lg:w-9/12 m-auto px-0 md:px-5 lg:px-10 flex justify-center items-center gap-3 md:gap-6 lg:gap-12">
         <div className="flex-1 flex flex-col">
-          <p className="pb-3 px-5 md:px-0">
+          <p className="pb-3 px-5 md:px-0 text-white md:text-red-950">
             $Aion ecosystem is built to ensure that sustainbility of Ai-Onion is
             maintained. Our first goal is to achieve a target of $1. The swap
-            and staking platform will create a strong utility for the solana
+            and staking platform will create a strong utility for the bsc
             ecosystem and other projects. Holders of $Aion will be able to stake
-            their tokens to earn Solana and other solana projects. $Aion skaking
+            their tokens to earn Bsc and other bsc projects. $Aion skaking
             platform will have a farming pool which will accomodate other
-            projects of the solana ecosystem, where users can stake tokens and
-            be rewarded. Active users of Ai-Onion swap and staking platforms
-            will be airdropped
+            projects of the bsc ecosystem, where users can stake tokens and be
+            rewarded. Active users of Ai-Onion swap and staking platforms will
+            be airdropped
           </p>
 
           <div className="bg-gray-400 md:bg-gray-100 p-5 md:p-0 text-white md:text-red-950 rounded-t-[5rem] md:rounded-none">
-            <h2 className="text-white md:text-black text-3xl font-bold py-1.5 md:py-2.5">
+            <h2 className="text-white md:text-black text-3xl text-center md:text-left font-bold py-1.5 md:py-2.5">
               AI-ONION CLUB
             </h2>
             <p>

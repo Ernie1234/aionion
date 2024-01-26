@@ -54,7 +54,7 @@ function Testimonial() {
           </button>
         </div>
         <h5 className="pt-8 md:pt-12 lg:pt-16 font-bold text-4xl pb-3">
-          OUR COMMUNIT
+          OUR COMMUNITY
         </h5>
       </div>
     </section>
