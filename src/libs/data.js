@@ -16,7 +16,7 @@ export const pageLinks = [
   },
   {
     id: 4,
-    path: "/whitepaper",
+    path: "/whitePaper",
     text: "White Paper",
   },
 ];

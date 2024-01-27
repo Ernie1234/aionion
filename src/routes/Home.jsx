@@ -10,7 +10,7 @@ import {
 function Home() {
   return (
     <div className="no-scrollbar w-screen">
-      <Jumbotron />
+      <Jumbotron title="AI Onion" btn />
       <Banner />
       <RoadMap />
       <div className="bg-red-950 md:bg-gray-100 rounded-[5rem] md:rounded-none">

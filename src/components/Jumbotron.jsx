@@ -1,10 +1,13 @@
-function Jumbotron() {
+import PropTypes from "prop-types";
+import { Link } from "react-router-dom";
+
+function Jumbotron({ title, btn }) {
   return (
     <div className="flex flex-col md:flex-row relative overflow-hidden">
       <div className="md:flex-1 w-4/5 md:w-full mx-auto md:px-0 pl-0 md:pl-28 lg:pl-48 flex-col md:flex-row flex justify-center items-center pt-28">
         <div>
           <h1 className="text-red-950 text-center md:text-left text-4xl md:text-5xl lg:text-6xl font-bold">
-            AI Onion
+            {title}
           </h1>
           <h5 className="text-yellow-700/90 text-2xl md:text-4xl text-center md:text-left font-semibold pb-48 md:pb-16 lg:pb-8">
             We are a community driven project, championed by active
@@ -17,14 +20,20 @@ function Jumbotron() {
             ecosystem using artificial intelligence.
           </p>
 
-          <div className="flex flex-col md:flex-row gap-3 md:gap-6 lg:gap-10 pt-3 md:pt-5">
-            <button className="font-bold text-xl md:text-2xl lg:text-4xl capitalize py-3 px-8 rounded md:rounded-md lg:rounded-lg border border-red-950 text-red-950 bg-transparent hover:bg-red-950 hover:text-white hover:border-red-950 cursor-pointer">
-              buy
-            </button>
-            <button className="font-bold text-xl md:text-2xl lg:text-4xl capitalize py-3 px-8 rounded md:rounded-md lg:rounded-lg border  text-white bg-red-950 hover:bg-red-900 hover:text-white  cursor-pointer">
-              swap
-            </button>
-          </div>
+          {btn && (
+            <div className="flex flex-col md:flex-row gap-3 md:gap-6 lg:gap-10 pt-3 md:pt-5">
+              <Link to="/comingSoon">
+                <button className="font-bold text-xl md:text-2xl lg:text-4xl capitalize py-3 px-8 rounded md:rounded-md lg:rounded-lg border border-red-950 text-red-950 bg-transparent hover:bg-red-950 hover:text-white hover:border-red-950 cursor-pointer">
+                  buy
+                </button>
+              </Link>
+              <Link to="/comingSoon">
+                <button className="font-bold text-xl md:text-2xl lg:text-4xl capitalize py-3 px-8 rounded md:rounded-md lg:rounded-lg border  text-white bg-red-950 hover:bg-red-900 hover:text-white  cursor-pointer">
+                  swap
+                </button>
+              </Link>
+            </div>
+          )}
         </div>
       </div>
       <div className="hidden md:block md:flex-1 pt-32">
@@ -50,4 +59,8 @@ function Jumbotron() {
   );
 }
 
+Jumbotron.propTypes = {
+  title: PropTypes.string,
+  btn: PropTypes.bool,
+};
 export default Jumbotron;
